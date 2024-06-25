@@ -1,0 +1,158 @@
+/* Stijlregels voor de gehele webpagina */
+
+body {
+    font-family: Arial, sans-serif;
+    /* Gebruik het lettertype Arial of een vergelijkbaar sans-serif lettertype */
+    background-color: #f4f4f4;
+    /* Achtergrondkleur grijs */
+    margin: 0;
+    /* Geen marges op de pagina */
+    padding: 0;
+    /* Geen opvulling binnen de pagina */
+}
+
+.container {
+    max-width: 1200px;
+    /* Maximale breedte van de container om inhoud te beperken */
+    margin: 0 auto;
+    /* Centreren van de container op de pagina */
+    padding: 20px;
+    /* Ruimte rond de inhoud in de container */
+}
+
+h1 {
+    font-size: 24px;
+    /* Grootte van de koppen */
+    margin-bottom: 20px;
+    /* Ruimte onder koppen */
+}
+
+a {
+    text-decoration: none;
+    /* Verwijder onderstreping van koppelingen */
+    color: #007bff;
+    /* Tekstkleur voor koppelingen */
+}
+
+/* Stijlregels voor het toevoegen aan winkelwagenformulier */
+
+.add-to-cart-container {
+    text-align: center;
+    /* Center de inhoud van het formulier */
+    padding: 20px;
+    /* Ruimte rond het formulier */
+    background-color: #fff;
+    /* Achtergrondkleur wit */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Voeg een schaduw toe aan het formulier */
+    margin-top: 20px;
+    /* Ruimte boven het formulier */
+}
+
+.add-to-cart-button {
+    background-color: #007bff;
+    /* Achtergrondkleur van de knop */
+    color: #fff;
+    /* Tekstkleur van de knop */
+    border: none;
+    /* Geen rand om de knop */
+    padding: 10px 20px;
+    /* Ruimte binnen de knop */
+    font-size: 16px;
+    /* Grootte van de tekst op de knop */
+    cursor: pointer;
+    /* Wijzig de muisaanwijzer naar een handje bij hover */
+}
+
+.add-to-cart-button:hover {
+    background-color: #0056b3;
+    /* Verander de achtergrondkleur van de knop bij hover */
+}
+
+/* Stijlregels voor de winkelwageninformatie */
+
+.cart-container {
+    background-color: #fff;
+    /* Achtergrondkleur van het winkelwagenvenster */
+    padding: 20px;
+    /* Ruimte rond de winkelwageninhoud */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Voeg een schaduw toe aan het venster */
+    margin: 20px auto;
+    /* Center de winkelwagen op de pagina */
+}
+
+.cart-item {
+    display: flex;
+    /* Gebruik flexbox om items uit te lijnen */
+    justify-content: space-between;
+    /* Plaats items gelijkmatig binnen de ruimte */
+    align-items: center;
+    /* Verticaal uitlijnen van items */
+    margin-bottom: 10px;
+    /* Ruimte tussen winkelwagenitems */
+    padding: 10px;
+    /* Ruimte binnen elk winkelwagenitem */
+    border: 1px solid #ccc;
+    /* Rand rond elk winkelwagenitem */
+    background-color: #f9f9f9;
+    /* Achtergrondkleur van elk winkelwagenitem */
+}
+
+.cart-item img {
+    max-width: 100px;
+    /* Maximale breedte voor afbeeldingen binnen een item */
+    max-height: 100px;
+    /* Maximale hoogte voor afbeeldingen binnen een item */
+    margin-right: 10px;
+    /* Ruimte aan de rechterkant van afbeeldingen */
+}
+
+.cart-item-name {
+    font-weight: bold;
+    /* Maak de productnaam vetgedrukt */
+}
+
+.cart-item-quantity {
+    font-size: 18px;
+    /* Grootte van de hoeveelheid tekst */
+    margin-right: 10px;
+    /* Ruimte aan de rechterkant van de hoeveelheid */
+}
+
+.cart-item-remove {
+    color: #d9534f;
+    /* Tekstkleur voor verwijderkoppelingen */
+    cursor: pointer;
+    /* Wijzig de muisaanwijzer naar een handje bij hover */
+}
+
+.cart-item-remove:hover {
+    text-decoration: underline;
+    /* Onderstreepte tekst bij hover */
+}
+
+/* Stijlregels voor de navigatiebalk */
+
+header {
+    display: flex;
+    /* Gebruik flexbox voor de navigatiebalk */
+    align-items: center;
+    /* Verticaal uitlijnen van items in de navigatiebalk */
+    justify-content: space-between;
+    /* Plaats items gelijkmatig binnen de ruimte */
+}
+
+button {
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    border-color: #007bff;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: rgb(255, 1, 255);
+    border-color: rgb(255, 1, 255);
+
+}

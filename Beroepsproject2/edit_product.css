@@ -1,0 +1,78 @@
+/* Instellingen voor de gehele pagina */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Stijl voor kop 2 (h2) elementen */
+h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Stijl voor formulieren */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Stijl voor labels in formulieren */
+label {
+    font-weight: bold;
+}
+
+/* Stijl voor tekst- en tekstvakvelden in formulieren */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* Stijl voor tekstvakken met automatisch formaat aanpassen (textarea) */
+textarea {
+    resize: vertical;
+}
+
+/* Stijl voor indienen (submit) knop in formulieren */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Stijl voor de knop bij hover (muis erover) */
+input[type="submit"]:hover {
+    background-color: rgb(255, 1, 255);
+}
+
+/* Stijl voor paragrafen */
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Stijl voor ankerlinks (hyperlinks) */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Stijl voor ankerlinks bij hover (muis erover) */
+a:hover {
+    color: rgb(255, 1, 255);
+}

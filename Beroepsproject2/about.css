@@ -1,0 +1,110 @@
+/* Stel de box-sizing in voor alle HTML-elementen om ervoor te zorgen dat padding en borders worden opgenomen in de elementbreedte. */
+html {
+    box-sizing: border-box;
+}
+
+/* Zorg ervoor dat box-sizing wordt geërfd door alle elementen, inclusief pseudo-elementen. */
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* Stijl voor kolommen met een breedte van 25%, marges en padding vooraf ingesteld. */
+.column {
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    float: left;
+}
+
+/* Stijl voor kaarten met een schaduw en marges. */
+.card {
+    box-shadow: 0 4px 8px 0 #007bff;
+    margin: 8px;
+}
+
+/* Stijl voor de sectie 'about' met padding, uitlijning en kleuren. */
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+}
+
+/* Stijl voor container met padding. */
+.container {
+    padding: 0 16px;
+}
+
+/* Leegte boven en onder de container en rij-elementen om floats op te schonen. */
+.container::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Stijl voor titels in grijze kleur. */
+.title {
+    color: grey;
+}
+
+/* Stijl voor knoppen met tekstkleur, achtergrondkleur en hover-effect. */
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #007bff;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+/* Stijl voor de basis van de footer met achtergrondkleur en tekstkleur. */
+.footer-basic {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Stijl voor een ongeordende lijst in de footer met flexbox-indeling. */
+.footer-basic ul.list-inline {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Marge rond de lijstitems in de footer. */
+.footer-basic ul.list-inline li {
+    margin: 0 10px;
+}
+
+/* Stijl voor het copyright-tekst in de footer met marge bovenaan en lettergrootte. */
+.footer-basic p.copyright {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Media query voor schermen met een maximale breedte van 650px om kolommen weer te geven als blokken. */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Stijl voor koppelingen (links) in lijstitems met tekstkleur en verwijdering van onderstreping. */
+li a {
+    color: #fff;
+    text-decoration: none;
+}

@@ -1,0 +1,145 @@
+/* Dit gedeelte bepaalt de algemene stijl van de hele webpagina */
+body {
+    font-family: Arial, sans-serif;
+    /* Lettertype instellen op Arial of een generiek sans-serif lettertype */
+    background-color: #f2f2f2;
+    /* Achtergrondkleur instellen op lichtgrijs (#f2f2f2) */
+    margin: 0;
+    /* Buitentekst marge instellen op 0 (geen spatie aan de buitenkant) */
+    padding: 0;
+    /* Binnenkant opvulling instellen op 0 (geen spatie aan de binnenkant) */
+}
+
+/* Stijl voor een formulier */
+.form {
+    float: right;
+    /* Het formulier naar rechts laten drijven (tekst zal eromheen vloeien) */
+    padding: 10px;
+    /* Opvulling van 10px binnen het formulier */
+    color: white;
+    /* Tekstkleur binnen het formulier instellen op wit */
+}
+
+/* Stijl voor kop 2 (h2-elementen) */
+h2 {
+    margin-top: 20px;
+    /* Ruimte boven de h2-kop instellen op 20px */
+}
+
+/* Stijl voor tabel en tabelcellen */
+table {
+    width: 100%;
+    /* Tabel 100% van de beschikbare breedte maken */
+    border-collapse: collapse;
+    /* Tabelranden samenvoegen om nettere randen te creëren */
+    border-spacing: 0;
+    /* Geen extra ruimte tussen de tabelelementen */
+}
+
+/* Stijl voor tabel, tabelkoppen (th) en tabelcellen (td) */
+table,
+th,
+td {
+    border: 1px solid #ddd;
+    /* Tabel, koppen en cellen krijgen een lichte grijze rand van 1px */
+}
+
+/* Stijl voor tabelkoppen (th) en tabelcellen (td) */
+th,
+td {
+    padding: 8px;
+    /* Opvulling van koppen en cellen instellen op 8px */
+    text-align: left;
+    /* Tekst links uitlijnen binnen koppen en cellen */
+}
+
+/* Stijl voor tabelkoppen (th) */
+th {
+    background-color: #f2f2f2;
+    /* Achtergrondkleur van koppen instellen op lichtgrijs (#f2f2f2) */
+}
+
+/* Stijl voor kop 3 (h3-elementen) */
+h3 {
+    margin: 10px 0;
+    /* Ruimte boven en onder de h3-kop instellen op 10px, links en rechts geen marge */
+}
+
+/* Stijl voor een specifieke tabel met de klasse 'order-details' */
+table.order-details {
+    margin-top: 20px;
+    /* Ruimte boven de tabel met de klasse 'order-details' instellen op 20px */
+}
+
+/* Stijl voor koppen en cellen binnen de specifieke tabel met de klasse 'order-details' */
+table.order-details th,
+table.order-details td {
+    border: 1px solid #ddd;
+    /* Koppen en cellen krijgen een lichte grijze rand van 1px */
+    padding: 8px;
+    /* Opvulling van koppen en cellen instellen op 8px */
+}
+
+/* Stijl voor koppen binnen de specifieke tabel met de klasse 'order-details' */
+table.order-details th {
+    background-color: #f2f2f2;
+    /* Achtergrondkleur van koppen instellen op lichtgrijs (#f2f2f2) */
+}
+
+/* Stijl voor een bericht zonder items */
+.no-items-message {
+    font-weight: bold;
+    /* Tekst vetgedrukt maken */
+    color: #007bff;
+    /* Tekstkleur instellen op blauw (#007bff) */
+    margin-top: 10px;
+    /* Ruimte boven het bericht zonder items instellen op 10px */
+}
+
+/* Stijl voor een terugkoppellink */
+.back-link {
+    margin-top: 20px;
+    /* Ruimte boven de terugkoppellink instellen op 20px */
+    display: inline-block;
+    /* Weergave als inline-blok voor juiste uitlijning van link */
+}
+
+/* Stijl voor koppelingen binnen de terugkoppellink */
+.back-link a {
+    text-decoration: none;
+    /* Onderstreping van koppelingen verwijderen */
+    background-color: #007bff;
+    /* Achtergrondkleur van koppelingen instellen op blauw (#007bff) */
+    color: white;
+    /* Tekstkleur van koppelingen instellen op wit */
+    padding: 10px 20px;
+    /* Opvulling van koppelingen instellen op 10px boven en onder, 20px links en rechts */
+    border-radius: 3px;
+    /* Afronding van randen instellen op 3px voor knopachtige uitstraling */
+    transition: background-color 0.3s;
+    /* Overgangseffect van achtergrondkleur instellen op 0.3 seconden */
+}
+
+/* Stijl voor koppelingen binnen de terugkoppellink bij zweven */
+.back-link a:hover {
+    background-color: rgb(255, 1, 255);
+    /* Achtergrondkleur van koppelingen veranderen naar een aangepaste kleur bij zweven */
+}
+
+/* Stijl voor alle koppelingen op de pagina */
+a {
+    text-decoration: none;
+    /* Onderstreping van koppelingen verwijderen */
+}
+
+/* Stijl voor koppelingen binnen het formulier */
+.form a {
+    color: black;
+    /* Tekstkleur van koppelingen binnen het formulier instellen op zwart */
+}
+
+/* Stijl voor kop 3 (h3-elementen) binnen het formulier */
+.form h3 {
+    color: black;
+    /* Tekstkleur van h3-koppen binnen het formulier instellen op zwart */
+}

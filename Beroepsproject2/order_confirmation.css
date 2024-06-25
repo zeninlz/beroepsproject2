@@ -1,0 +1,101 @@
+/* Resetten van de marges en paddings voor de body en html-elementen */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Stijlen voor de algemene container van de pagina */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    /* Center de container horizontaal op de pagina */
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* Afgeronde hoeken voor de container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Voeg een lichte schaduw toe aan de container */
+}
+
+/* Stijlen voor de headersectie van de pagina */
+header {
+    text-align: center;
+    /* Center de tekst in de header */
+    margin-bottom: 20px;
+    /* Voeg wat ruimte onder de header toe */
+}
+
+/* Stijlen voor h1-elementen */
+h1 {
+    font-size: 24px;
+    margin: 0;
+    /* Verwijder standaard marges van het h1-element */
+    color: #333;
+}
+
+/* Stijlen voor de algemene tekst in de pagina */
+p {
+    font-size: 16px;
+    margin: 0;
+    color: #666;
+}
+
+/* Stijlen voor sterke (vetgedrukte) tekst */
+strong {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Stijlen voor tabellen */
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    /* Laat tabellijnen samenvoegen */
+    margin-top: 20px;
+    /* Voeg wat ruimte boven de tabel toe */
+}
+
+/* Stijlen voor tabelkoppen en tabelcellen */
+.order-table th,
+.order-table td {
+    padding: 10px;
+    /* Voeg opvulling toe aan tabelkoppen en cellen */
+    text-align: left;
+    /* Links uitlijnen van tekst in cellen */
+    border-bottom: 1px solid #ccc;
+    /* Voeg een onderstreping toe onder rijen */
+}
+
+/* Stijlen voor tabelkoppen */
+.order-table th {
+    background-color: #f2f2f2;
+    /* Achtergrondkleur voor tabelkoppen */
+}
+
+/* Stijlen voor knoppen met klasse "button" */
+a.button {
+    display: inline-block;
+    padding: 10px 20px;
+    /* Voeg opvulling toe aan knoppen */
+    background-color: #007bff;
+    /* Achtergrondkleur voor knoppen */
+    color: #fff;
+    /* Tekstkleur voor knoppen */
+    text-decoration: none;
+    /* Verwijder onderstreping van knoppen */
+    border-radius: 5px;
+    /* Afgeronde hoeken voor knoppen */
+    font-weight: bold;
+    /* Maak de tekst vetgedrukt in knoppen */
+    transition: background-color 0.3s;
+    /* Voeg een achtergrondkleurtransitie toe bij hover */
+}
+
+/* Stijlen voor knoppen met klasse "button" bij hover */
+a.button:hover {
+    background-color: #0056b3;
+    /* Achtergrondkleur veranderen wanneer de muis erover beweegt */
+}

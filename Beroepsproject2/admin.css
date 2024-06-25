@@ -1,0 +1,266 @@
+/* Instellingen voor de algemene opmaak van de pagina */
+body {
+    font-family: Arial, sans-serif;
+    /* Lettertype voor de hele pagina */
+    background-color: #f2f2f2;
+    /* Achtergrondkleur */
+    margin: 0;
+    /* Geen marges */
+    padding: 0;
+    /* Geen padding */
+}
+
+/* Opmaak voor de navigatiebalk */
+.navbar {
+    background-color: #007bff;
+    /* Achtergrondkleur van de navigatiebalk */
+    overflow: hidden;
+}
+
+/* Stijl voor de ongeordende lijst in de navigatiebalk */
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Stijl voor de lijstitems in de navigatiebalk */
+.navbar ul li {
+    float: left;
+    /* Lijstitems worden naast elkaar weergegeven */
+}
+
+/* Opmaak voor koppelingen in de navigatiebalk */
+.navbar ul li a {
+    display: block;
+    color: white;
+    /* Tekstkleur */
+    text-align: center;
+    padding: 14px 16px;
+    /* Binnenruimte voor koppelingen */
+    text-decoration: none;
+    /* Geen onderstreping */
+    transition: background-color 0.3s;
+    /* Vloeiende overgang van achtergrondkleur bij hover */
+}
+
+/* Opmaak voor koppelingen bij hover (muis erover) */
+.navbar ul li a:hover {
+    background-color: #007bff;
+    /* Verander achtergrondkleur bij hover */
+}
+
+/* Opmaak voor een gedeelte met de klasse "product-management" */
+.product-management {
+    background-color: #fff;
+    /* Achtergrondkleur van het productbeheergedeelte */
+    padding: 20px;
+    /* Binnenruimte */
+    border-radius: 5px;
+    /* Afronding van hoeken */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Schaduw */
+    margin: 20px 0;
+    /* Boven- en ondermarge */
+}
+
+/* Stijl voor de titel binnen het "product-management" gedeelte */
+.product-management h2 {
+    font-size: 24px;
+    /* Lettergrootte */
+    margin-top: 0;
+    /* Geen bovenmarge */
+}
+
+/* Opmaak voor het formulier met de klasse "product-form" */
+.product-form {
+    max-width: 400px;
+    /* Maximale breedte */
+    margin: 0 auto;
+    /* Midden uitlijnen op de pagina */
+}
+
+/* Stijl voor een groep van formuliervelden */
+.form-group {
+    margin-bottom: 15px;
+    /* Onderlinge afstand tussen formuliervelden */
+}
+
+/* Stijl voor de labels van formuliervelden */
+.form-group label {
+    font-weight: bold;
+    /* Vetgedrukte tekst */
+    display: block;
+    /* Elk label op een nieuwe regel */
+    margin-bottom: 5px;
+    /* Onderlinge afstand tussen label en invoerveld */
+}
+
+/* Stijl voor tekst- en nummerinvoervelden, en tekstvelden in het formulier */
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group textarea {
+    width: 100%;
+    /* Volledige breedte van de oudercontainer */
+    padding: 10px;
+    /* Binnenruimte */
+    border: 1px solid #ccc;
+    /* Randstijl */
+    border-radius: 3px;
+    /* Afronding van hoeken */
+    font-size: 16px;
+    /* Lettergrootte */
+}
+
+/* Opmaak voor de verzendknop van het formulier */
+.submit-button {
+    background-color: #007bff;
+    /* Achtergrondkleur */
+    color: #fff;
+    /* Tekstkleur */
+    border: none;
+    /* Geen rand */
+    padding: 10px 20px;
+    /* Binnenruimte */
+    font-size: 18px;
+    /* Lettergrootte */
+    border-radius: 3px;
+    /* Afronding van hoeken */
+    cursor: pointer;
+    /* Verander cursor bij hover */
+    transition: background-color 0.3s;
+    /* Vloeiende overgang van achtergrondkleur bij hover */
+}
+
+/* Opmaak voor de verzendknop bij hover */
+.submit-button:hover {
+    background-color: rgb(255, 1, 255);
+    /* Verander achtergrondkleur bij hover */
+}
+
+/* Opmaak voor een formulier met de klasse "form" */
+.form {
+    float: right;
+    /* Rechts uitlijnen */
+    padding: 10px;
+    /* Binnenruimte */
+    color: white;
+    /* Tekstkleur */
+}
+
+/* Opmaak voor het gedeelte met de klasse "live-info" */
+.live-info {
+    background-color: #007bff;
+    /* Achtergrondkleur */
+    color: white;
+    /* Tekstkleur */
+    padding: 10px;
+    /* Binnenruimte */
+    text-align: center;
+    /* Tekst centreren */
+    cursor: pointer;
+    /* Verander cursor bij hover */
+    border-radius: 5px;
+    /* Afronding van hoeken */
+    margin: 10px;
+    /* Binnen- en buitenmarge */
+    display: inline-block;
+    /* Weergeven als inline-blok */
+    transition: background-color 0.3s;
+    /* Vloeiende overgang van achtergrondkleur bij hover */
+}
+
+/* Opmaak voor het gedeelte "live-info" bij hover */
+.live-info:hover {
+    background-color: rgb(255, 1, 255);
+    /* Verander achtergrondkleur bij hover */
+}
+
+/* Opmaak voor h2-kopteksten op de pagina */
+h2 {
+    margin-top: 20px;
+    /* Bovenmarge van h2-elementen */
+}
+
+/* Opmaak voor tabellen op de pagina */
+table {
+    width: 100%;
+    /* Volledige breedte van de container */
+    border-collapse: collapse;
+    /* Samenvoegen van randen tussen cellen */
+    border-spacing: 0;
+    /* Geen ruimte tussen cellen */
+}
+
+/* Opmaak voor tabel, th (kolomkoppen) en td (tabelcellen) */
+table,
+th,
+td {
+    border: 1px solid #ddd;
+    /* Randstijl */
+}
+
+/* Stijl voor kolomkoppen (th) en tabelcellen (td) */
+th,
+td {
+    padding: 8px;
+    /* Binnenruimte */
+    text-align: left;
+    /* Tekst uitlijnen aan de linkerkant */
+}
+
+/* Opmaak voor kolomkoppen (th) */
+th {
+    background-color: #f2f2f2;
+    /* Achtergrond */
+}
+
+/* Dit is een CSS-regel voor de h3-elementen binnen elementen met de class 'live-info'. 
+   Het verwijdert de boven- en ondermarges en voegt een onderste padding van 5px toe. */
+.live-info h3 {
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+/* Dit is een CSS-regel voor de p-elementen binnen elementen met de class 'live-info'.
+   Het verwijdert de marges, stelt de lettergrootte in op 18px en maakt de tekst vetgedrukt. */
+.live-info p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Dit is een CSS-regel voor anker (a) elementen binnen elementen met de class 'form'.
+   Het stelt de tekstkleur in op wit (#fff). */
+.form a {
+    color: #fff;
+}
+
+/* Dit is een CSS-regel voor anker (a) elementen binnen elementen met de class 'form'.
+   Het stelt de tekstkleur in op zwart (black), wat de algemene ankerkleur overschrijft. */
+.form a {
+    color: black;
+}
+
+/* Dit is een CSS-regel voor h3-elementen binnen elementen met de class 'form'.
+   Het stelt de tekstkleur in op zwart (black). */
+.form h3 {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+td a {
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+td a:hover {
+    background-color: rgb(255, 1, 255);
+    border-color: rgb(255, 1, 255);
+}

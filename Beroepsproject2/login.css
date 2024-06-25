@@ -1,0 +1,137 @@
+/* Achtergrondstijlen voor de gehele pagina */
+body {
+    background: #3e4144;
+    /* Achtergrondkleur van de pagina */
+}
+
+/* Stijlen voor het inlogformulier */
+.form {
+    margin: 50px auto;
+    /* Middel de vorm verticaal op de pagina */
+    width: 300px;
+    /* Breedte van het formulier */
+    padding: 30px 25px;
+    /* Binnenopvulling van het formulier */
+    background: white;
+    /* Achtergrondkleur van het formulier */
+    border-radius: 8px;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Stijlen voor de titel van het inlogformulier */
+h1.login-title {
+    color: #666;
+    /* Tekstkleur van de titel */
+    margin: 0px auto 25px;
+    /* Middel de titel verticaal en voeg wat ruimte onder toe */
+    font-size: 25px;
+    /* Tekstgrootte van de titel */
+    font-weight: 300;
+    /* Vetgedruktheid van de titel */
+    text-align: center;
+    /* Center de titel horizontaal */
+}
+
+/* Stijlen voor inloginvoervelden */
+.login-input {
+    font-size: 15px;
+    /* Tekstgrootte voor invoervelden */
+    border: 1px solid #ccc;
+    /* Rand van de invoervelden */
+    padding: 10px;
+    /* Binnenopvulling van de invoervelden */
+    margin-bottom: 25px;
+    /* Voeg wat ruimte onder de invoervelden toe */
+    height: 25px;
+    /* Hoogte van de invoervelden */
+    width: calc(100% - 23px);
+    /* Bereken de breedte van de invoervelden met marge */
+}
+
+/* Stijlen voor gefocuste invoervelden */
+.login-input:focus {
+    border-color: #6e8095;
+    /* Randkleur wanneer het veld de focus heeft */
+    outline: none;
+    /* Verwijder de standaardfocusstijl */
+}
+
+/* Stijlen voor de inlogknop */
+.login-button {
+    color: #fff;
+    /* Tekstkleur van de knop */
+    background: #55a1ff;
+    /* Achtergrondkleur van de knop */
+    border: 0;
+    /* Geen rand voor de knop */
+    outline: 0;
+    /* Geen focusstijl voor de knop */
+    width: 100%;
+    /* Volledige breedte van de knop */
+    height: 50px;
+    /* Hoogte van de knop */
+    font-size: 16px;
+    /* Tekstgrootte van de knop */
+    text-align: center;
+    /* Center de tekst in de knop */
+    cursor: pointer;
+    /* Verander de cursor naar een handje bij hover */
+}
+
+/* Stijlen voor koppelingen onderaan het formulier */
+.link {
+    color: #666;
+    /* Tekstkleur voor koppelingen */
+    font-size: 15px;
+    /* Tekstgrootte voor koppelingen */
+    text-align: center;
+    /* Center de tekst in koppelingen */
+    margin-bottom: 0px;
+    /* Voeg geen ruimte onder de koppelingen toe */
+}
+
+/* Stijlen voor koppelingen binnen de paragraaf met klasse "link" */
+.link a {
+    color: #666;
+    /* Tekstkleur voor koppelingen binnen de paragraaf met klasse "link" */
+}
+
+/* Stijlen voor kop 3-elementen */
+h3 {
+    font-weight: normal;
+    /* Normale tekstdikte voor kop 3-elementen */
+    text-align: center;
+    /* Center de tekst in kop 3-elementen */
+}
+
+/* Stijlen voor de algemene voettekstsectie */
+.footer-basic {
+    padding: 15px 0;
+    /* Binnenopvulling boven en onder de voettekst */
+    background-color: #ffffff;
+    /* Achtergrondkleur van de voettekst */
+    color: #4b4c4d;
+    /* Tekstkleur van de voettekst */
+}
+
+/* Stijlen voor het auteursrechtgedeelte in de voettekst */
+.footer-basic .copyright {
+    margin-top: 15px;
+    /* Voeg wat ruimte boven het auteursrechtgedeelte toe */
+    text-align: center;
+    /* Center de tekst in het auteursrechtgedeelte */
+    font-size: 13px;
+    /* Tekstgrootte voor het auteursrechtgedeelte */
+    color: #aaa;
+    /* Tekstkleur voor het auteursrechtgedeelte */
+    margin-bottom: 0;
+    /* Voeg geen ruimte onder het auteursrechtgedeelte toe */
+}
+
+p a {
+    text-decoration: none;
+}

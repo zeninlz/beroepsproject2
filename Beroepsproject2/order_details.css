@@ -1,0 +1,102 @@
+/* Stijlen voor de algemene container van de pagina */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    /* Center de container horizontaal op de pagina */
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* Afgeronde hoeken voor de container */
+}
+
+/* Stijlen voor de headersectie van de pagina */
+header {
+    text-align: center;
+    /* Center de tekst in de header */
+    margin-bottom: 20px;
+    /* Voeg wat ruimte onder de header toe */
+}
+
+/* Stijlen voor de h1 in de header */
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    /* Voeg wat ruimte onder de h1 toe */
+}
+
+/* Stijlen voor het formulier binnen de container */
+.form {
+    margin-top: 10px;
+    /* Voeg wat ruimte boven het formulier toe */
+}
+
+/* Stijlen voor hyperlinks binnen het formulier */
+.form a {
+    text-decoration: none;
+    /* Verwijder onderstreping van hyperlinks */
+    color: #007bff;
+    /* Blauwe kleur voor hyperlinks */
+    margin: 0 10px;
+    /* Voeg wat ruimte aan de zijkanten van hyperlinks toe */
+}
+
+/* Stijlen voor de tabel met bestelgegevens */
+.order-details {
+    width: 100%;
+    border-collapse: collapse;
+    /* Laat tabellijnen samenvoegen */
+    margin-top: 20px;
+    /* Voeg wat ruimte boven de tabel toe */
+}
+
+/* Stijlen voor tabelkoppen en tabelcellen */
+.order-details th,
+.order-details td {
+    padding: 10px;
+    /* Voeg opvulling toe aan tabelkoppen en cellen */
+    text-align: left;
+    /* Links uitlijnen van tekst in cellen */
+    border-bottom: 1px solid #ddd;
+    /* Voeg een onderstreping toe onder rijen */
+}
+
+/* Stijlen voor tabelkoppen */
+.order-details th {
+    background-color: #f2f2f2;
+    /* Achtergrondkleur voor tabelkoppen */
+}
+
+/* Stijlen voor de tabelvoet met vetgedrukte tekst */
+.order-details tfoot {
+    background-color: #f2f2f2;
+    /* Achtergrondkleur voor de tabelvoet */
+    font-weight: bold;
+    /* Maak de tekst vetgedrukt in de tabelvoet */
+}
+
+/* Stijlen voor de "terug naar geschiedenis" hyperlink in het formulier */
+.form a#back-to-history {
+    margin-top: 20px;
+    /* Voeg wat ruimte boven de hyperlink toe */
+    display: inline-block;
+    padding: 10px 20px;
+    /* Voeg opvulling toe aan de hyperlink */
+    background-color: #007bff;
+    /* Achtergrondkleur voor de hyperlink */
+    color: #fff;
+    /* Tekstkleur voor de hyperlink */
+    text-decoration: none;
+    /* Verwijder onderstreping van de hyperlink */
+    border-radius: 5px;
+    /* Afgeronde hoeken voor de hyperlink */
+    transition: background-color 0.3s;
+    /* Voeg een achtergrondkleurtransitie toe bij hover */
+}
+
+/* Stijlen voor de "terug naar geschiedenis" hyperlink bij hover */
+.form a#back-to-history:hover {
+    background-color: #0056b3;
+    /* Achtergrondkleur veranderen wanneer de muis erover beweegt */
+}

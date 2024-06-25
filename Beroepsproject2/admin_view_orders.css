@@ -1,0 +1,139 @@
+/* Instellingen voor de algemene opmaak van de webpagina */
+body {
+    font-family: Arial, sans-serif;
+    /* Lettertype instellen voor de hele pagina */
+    background-color: #f2f2f2;
+    /* Achtergrondkleur instellen */
+    margin: 0;
+    /* Verwijder marges om de pagina vanaf het begin van het venster weer te geven */
+    padding: 0;
+    /* Verwijder vulling om inhoud vanaf het begin van de pagina weer te geven */
+}
+
+/* Opmaak voor een specifiek formulier met de klasse 'form' */
+.form {
+    float: right;
+    /* Drijf dit formulier naar rechts binnen de beschikbare ruimte */
+    padding: 10px;
+    /* Voeg binnenruimte (vulling) toe aan het formulier */
+    color: white;
+    /* Tekstkleur instellen op wit */
+}
+
+/* Opmaak voor kopniveau 2 (h2) elementen */
+h2 {
+    margin-top: 20px;
+    /* Voeg een bovenmarge toe van 20 pixels aan alle h2-elementen */
+}
+
+/* Opmaak voor HTML-tabels */
+table {
+    width: 100%;
+    /* De tabel beslaat de volledige breedte van zijn container */
+    border-collapse: collapse;
+    /* Samenvoegen van celranden om een strakkere tabelopmaak te krijgen */
+    border-spacing: 0;
+    /* Geen ruimte tussen tabelranden en cellen */
+}
+
+/* Opmaak voor tabel, tabelkop (th) en tabelcel (td) elementen */
+table,
+th,
+td {
+    border: 1px solid #ddd;
+    /* Alle tabel-, kop- en celranden hebben een 1px brede rand */
+}
+
+/* Opmaak voor tabelkop (th) en tabelcel (td) elementen */
+th,
+td {
+    padding: 8px;
+    /* Voeg binnenruimte (vulling) van 8 pixels toe aan kop- en celinhoud */
+    text-align: left;
+    /* Zet de tekstuitlijning naar links uitlijnen */
+}
+
+/* Opmaak voor tabelkop (th) elementen */
+th {
+    background-color: #f2f2f2;
+    /* Achtergrondkleur voor de tabelkoppen instellen */
+}
+
+/* Opmaak voor een specifieke klasse 'no-orders-message' */
+.no-orders-message {
+    font-weight: bold;
+    /* Zet het lettertype gewicht op vet (bold) */
+    color: #007bff;
+    /* Tekstkleur instellen op blauw */
+    margin-top: 10px;
+    /* Voeg een bovenmarge toe van 10 pixels */
+}
+
+/* Opmaak voor een specifieke klasse 'order-list' binnen een tabel */
+table.order-list {
+    margin-top: 20px;
+    /* Voeg een bovenmarge toe van 20 pixels aan tabellen met de klasse 'order-list' */
+}
+
+/* Opmaak voor tabelkop (th) en tabelcel (td) elementen binnen een tabel met de klasse 'order-list' */
+table.order-list th,
+table.order-list td {
+    border: 1px solid #ddd;
+    /* Randopmaak voor kop- en celinhoud binnen 'order-list'-tabellen */
+    padding: 8px;
+    /* Voeg binnenruimte (vulling) van 8 pixels toe aan kop- en celinhoud */
+}
+
+/* Opmaak voor tabelkop (th) elementen binnen een tabel met de klasse 'order-list' */
+table.order-list th {
+    background-color: #f2f2f2;
+    /* Achtergrondkleur voor de tabelkoppen binnen 'order-list'-tabellen */
+}
+
+/* Opmaak voor links met de klasse 'view-details-link' */
+.view-details-link {
+    text-decoration: none;
+    /* Verwijder de standaard tekstdecoratie (onderstreping) van links */
+    background-color: #007bff;
+    /* Achtergrondkleur van de links instellen op blauw */
+    color: white;
+    /* Tekstkleur van de links instellen op wit */
+    padding: 10px 20px;
+    /* Voeg binnenruimte (vulling) toe aan de links */
+    border-radius: 3px;
+    /* Geef links een afgeronde rand (3 pixels) */
+    transition: background-color 0.3s;
+    /* Voeg een overgangseffect toe voor de achtergrondkleur */
+}
+
+/* Opmaak voor de hover-status van links met de klasse 'view-details-link' */
+.view-details-link:hover {
+    background-color: rgb(255, 1, 255);
+    /* Wanneer de muis over de link zweeft, verander de achtergrondkleur */
+}
+
+/* Opmaak voor alle links in de pagina */
+a {
+    text-decoration: none;
+    /* Verwijder de standaard tekstdecoratie (onderstreping) van links */
+}
+
+/* Opmaak voor links binnen een element met de klasse 'form' */
+.form a {
+    color: black;
+    /* Tekstkleur van links binnen een element met de klasse 'form' instellen op zwart */
+}
+
+/* Opmaak voor kopniveau 3 (h3) elementen binnen een element met de klasse 'form' */
+.form h3 {
+    color: black;
+    /* Tekstkleur van h3-elementen binnen een element met de klasse 'form' instellen op zwart */
+}
+
+td a {
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+}

@@ -1,0 +1,218 @@
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Algemene instellingen om standaardmarges en -vullingen te verwijderen. */
+
+body {
+    font-family: Arial, sans-serif;
+    /* Lettertype voor de hele pagina. */
+    background-color: #f0f0f0;
+    /* Achtergrondkleur van de pagina. */
+    margin: 0;
+    /* Verwijdering van de standaardmarge voor het lichaam. */
+    padding: 0;
+    /* Verwijdering van de standaardvulling voor het lichaam. */
+    display: flex;
+    /* Gebruik van Flexbox voor lay-out. */
+    justify-content: center;
+    /* Horizontaal uitlijnen van elementen in het midden. */
+    align-items: center;
+    /* Verticaal uitlijnen van elementen in het midden. */
+    min-height: 100vh;
+    /* Minimale hoogte van de viewport (volledig zichtbare schermhoogte). */
+    flex-direction: column;
+    /* Stapel elementen in kolomrichting. */
+}
+
+/* Algemene instellingen voor de pagina en lay-out. */
+
+.container {
+    width: 60%;
+    /* Breedte van de container. */
+    padding: 20px;
+    /* Binnenmarge van de container. */
+    background-color: #fff;
+    /* Achtergrondkleur van de container. */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Schaduweffect voor de container. */
+}
+
+/* Instellingen voor een container binnen de pagina. */
+
+h1 {
+    font-size: 36px;
+    /* Tekstgrootte van h1. */
+    margin-bottom: 20px;
+    /* Marge onder h1. */
+    color: #0078d4;
+    /* Tekstkleur van h1. */
+}
+
+h2 {
+    font-size: 24px;
+    /* Tekstgrootte van h2. */
+    margin-top: 20px;
+    /* Marge boven h2. */
+    margin-bottom: 10px;
+    /* Marge onder h2. */
+    color: #333;
+    /* Tekstkleur van h2. */
+}
+
+p {
+    font-size: 16px;
+    /* Tekstgrootte van alinea's. */
+    margin-bottom: 20px;
+    /* Marge onder alinea's. */
+    text-align: justify;
+    /* Tekst uitlijnen aan beide zijden. */
+}
+
+a {
+    color: #0078d4;
+    /* Tekstkleur van koppelingen. */
+    text-decoration: none;
+    /* Verwijdering van standaard koppelingstekstdecoraties. */
+    transition: color 0.3s;
+    /* Overgangseffect voor tekstkleur bij hover. */
+}
+
+a:hover {
+    color: #0056b3;
+    /* Tekstkleur van koppelingen bij hover (mouseover). */
+}
+
+ul {
+    list-style: none;
+    /* Verwijdering van standaard lijstopmaak. */
+    padding-left: 20px;
+    /* Binnenmarge aan de linkerkant van lijstitems. */
+    margin-bottom: 20px;
+    /* Marge onder de lijst. */
+}
+
+li {
+    font-size: 16px;
+    /* Tekstgrootte van lijstitems. */
+    margin-bottom: 10px;
+    /* Marge onder lijstitems. */
+}
+
+table {
+    width: 100%;
+    /* Volledige breedte van de tabel. */
+    border-collapse: collapse;
+    /* Samenvoegen van tabelranden. */
+    margin-bottom: 20px;
+    /* Marge onder de tabel. */
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+    /* Rand van de tabel, tabelkoppen en tabelcellen. */
+}
+
+th,
+td {
+    padding: 10px;
+    /* Binnenmarge van tabelkoppen en tabelcellen. */
+    text-align: left;
+    /* Tekst uitlijnen naar links in tabelkoppen en tabelcellen. */
+}
+
+.footer-basic {
+    background-color: #007bff;
+    /* Achtergrondkleur van de voettekst. */
+    color: #fff;
+    /* Tekstkleur van de voettekst. */
+    padding: 20px 0;
+    /* Binnenmarge boven en onder de voettekst. */
+    text-align: center;
+    /* Tekst uitlijnen in het midden van de voettekst. */
+    width: 100%;
+    /* Volledige breedte van de voettekst. */
+}
+
+.footer-basic ul.list-inline {
+    padding: 0;
+    /* Verwijdering van standaardlijstmarges. */
+    list-style: none;
+    /* Verwijdering van standaard lijstopmaak. */
+    display: flex;
+    /* Gebruik van Flexbox voor lay-out. */
+    flex-direction: row;
+    /* Stapel lijstitems in een rij. */
+    justify-content: center;
+    /* Horizontaal uitlijnen van lijstitems in het midden. */
+}
+
+.footer-basic ul.list-inline li {
+    margin: 0 10px;
+    /* Marge rond lijstitems. */
+}
+
+.footer-basic p.copyright {
+    margin-top: 10px;
+    /* Marge boven het auteursrechtbericht. */
+    font-size: 14px;
+    /* Tekstgrootte van het auteursrechtbericht. */
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+        /* Binnenmarge van de container op kleinere schermen. */
+    }
+
+    h1 {
+        font-size: 28px;
+        /* Tekstgrootte van h1 op kleinere schermen. */
+    }
+
+    h2 {
+        font-size: 22px;
+        /* Tekstgrootte van h2 op kleinere schermen. */
+    }
+
+    p {
+        font-size: 14px;
+        /* Tekstgrootte van alinea's op kleinere schermen. */
+    }
+}
+
+/* Mediaquery voor kleinere schermen, met aangepaste stijlen. */
+
+li a {
+    color: #fff;
+    /* Tekstkleur van koppelingen binnen lijstitems. */
+    text-decoration: none;
+    /* Verwijdering van standaard koppelingstekstdecoraties. */
+}
+
+footer p {
+    text-align: center;
+    /* Tekst uitlijnen in het midden van de voettekst. */
+}
+
+.alles {
+    display: flex;
+    /* Gebruik van Flexbox voor lay-out. */
+    width: 700px;
+    /* Breedte van het element. */
+    height: auto;
+    /* Automatische hoogte. */
+    padding: 10px;
+    /* Binnenmarge van het element. */
+    flex-direction: column;
+    /* Stapel elementen in kolomrichting. */
+    box-shadow: 0
+}

@@ -1,0 +1,113 @@
+/* Stijlregels voor het hele formulier */
+.form {
+    text-align: right;
+    /* Tekst wordt rechts uitgelijnd */
+    margin: 10px;
+    /* Buitenmarge van 10px rondom het formulier */
+    padding: 10px;
+    /* Binnenmarge van 10px rondom het formulier */
+}
+
+/* Stijlregels voor kop (h2) elementen */
+h2 {
+    font-size: 24px;
+    /* Lettergrootte van 24px */
+    margin-top: 20px;
+    /* Bovenmarge van 20px voor de kop */
+}
+
+/* Stijlregels voor elementen met de klasse 'error-message' */
+.error-message {
+    color: red;
+    /* Tekstkleur wordt rood */
+    font-weight: bold;
+    /* Vetgedrukte tekst */
+    margin-top: 10px;
+    /* Bovenmarge van 10px voor foutmeldingen */
+}
+
+/* Stijlregels voor label elementen */
+label {
+    font-weight: bold;
+    /* Vetgedrukte labels */
+    display: block;
+    /* Labels worden weergegeven als blok-elementen (één onder de ander) */
+    margin-top: 10px;
+    /* Bovenmarge van 10px voor labels */
+}
+
+/* Stijlregels voor tekst- en e-mailinvoervelden */
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    /* Volledige breedte innemen van de beschikbare ruimte */
+    padding: 10px;
+    /* Binnenmarge van 10px voor de invoervelden */
+    margin-top: 5px;
+    /* Bovenmarge van 5px voor de invoervelden */
+    border: 1px solid #ccc;
+    /* Een 1px dikke grijze rand om de invoervelden */
+    border-radius: 4px;
+    /* Afgeronde hoeken met een straal van 4px */
+}
+
+/* Stijlregels voor het verzendknop (submit) element */
+input[type="submit"] {
+    background-color: #007BFF;
+    /* Achtergrondkleur van de knop is donkerblauw */
+    color: #fff;
+    /* Tekstkleur is wit */
+    padding: 10px 20px;
+    /* Binnenmarge van 10px boven en onder, 20px aan de zijkanten */
+    border: none;
+    /* Geen rand om de knop */
+    border-radius: 4px;
+    /* Afgeronde hoeken met een straal van 4px */
+    cursor: pointer;
+    /* De muisaanwijzer verandert in een handje bij hover (klikbaar) */
+    margin-top: 20px;
+    /* Bovenmarge van 20px voor de knop */
+}
+
+/* Stijlregels voor de verzendknop wanneer er met de muis overheen wordt gegaan (hover) */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    /* Achtergrondkleur wordt donkerder blauw bij hover */
+}
+
+/* Stijlregels voor hyperlinks (a-elementen) */
+a {
+    text-decoration: none;
+    /* Geen onderstreping onder de links */
+    color: #007BFF;
+    /* Linktekstkleur is donkerblauw */
+    margin-top: 10px;
+    /* Bovenmarge van 10px voor de links */
+    display: inline-block;
+    /* Links worden inline-blokken voor juiste uitlijning */
+}
+
+/* Stijlregels voor hyperlinks wanneer er met de muis overheen wordt gegaan (hover) */
+a:hover {
+    text-decoration: underline;
+    /* Onderstreping toevoegen bij hover */
+    color: #0056b3;
+    /* Linktekstkleur wordt donkerder blauw bij hover */
+}
+
+.edit {
+    margin: 50px auto;
+    /* Middel de vorm verticaal op de pagina */
+    width: 300px;
+    /* Breedte van het formulier */
+    padding: 30px 25px;
+    /* Binnenopvulling van het formulier */
+
+    border-radius: 8px;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 200%;
+}

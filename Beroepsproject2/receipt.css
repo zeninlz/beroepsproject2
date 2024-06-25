@@ -1,0 +1,105 @@
+.container {
+    max-width: 800px;
+    /* Maximale breedte van de container. */
+    margin: 0 auto;
+    /* Gecentreerde uitlijning van de container. */
+    padding: 20px;
+    /* Binnenmarge van de container. */
+    text-align: center;
+    /* Tekst uitlijnen in het midden van de container. */
+    background-color: #f5f5f5;
+    /* Achtergrondkleur van de container. */
+    border: 1px solid #ddd;
+    /* Rand van de container. */
+    border-radius: 5px;
+    /* Afgeronde hoeken van de container. */
+}
+
+header {
+    text-align: center;
+    /* Tekst uitlijnen in het midden van de header. */
+    margin-bottom: 20px;
+    /* Marge onder de header. */
+}
+
+header h1 {
+    font-size: 24px;
+    /* Tekstgrootte van h1 binnen de header. */
+    margin-bottom: 10px;
+    /* Marge onder de h1 binnen de header. */
+}
+
+.form {
+    margin-top: 10px;
+    /* Marge boven de form-elementen. */
+}
+
+.form a {
+    text-decoration: none;
+    /* Verwijdering van standaard koppelingstekstdecoraties. */
+    color: #007bff;
+    /* Tekstkleur van koppelingen. */
+    margin: 0 10px;
+    /* Marge rond koppelingen. */
+}
+
+.order-history {
+    width: 100%;
+    /* Volledige breedte van de tabel. */
+    border-collapse: collapse;
+    /* Samenvoegen van tabelranden. */
+    margin-top: 20px;
+    /* Marge boven de tabel. */
+}
+
+.order-history th,
+.order-history td {
+    padding: 10px;
+    /* Binnenmarge van tabelkoppen en tabelcellen. */
+    text-align: left;
+    /* Tekst uitlijnen naar links in tabelkoppen en tabelcellen. */
+    border-bottom: 1px solid #ddd;
+    /* Onderste rand van tabelkoppen en tabelcellen. */
+}
+
+.order-history th {
+    background-color: #f2f2f2;
+    /* Achtergrondkleur van tabelkoppen. */
+}
+
+.form a#back-to-home {
+    margin-top: 20px;
+    /* Marge boven de koppeling. */
+    display: inline-block;
+    /* Instellen als inline-blok om breedte en hoogte te beheren. */
+    padding: 10px 20px;
+    /* Binnenmarge van de koppeling. */
+    background-color: #007bff;
+    /* Achtergrondkleur van de koppeling. */
+    color: #fff;
+    /* Tekstkleur van de koppeling. */
+    text-decoration: none;
+    /* Verwijdering van standaard koppelingstekstdecoraties. */
+    border-radius: 5px;
+    /* Afgeronde hoeken van de koppeling. */
+    transition: background-color 0.3s;
+    /* Overgangseffect voor achtergrondkleur bij hover. */
+}
+
+.form a#back-to-home:hover {
+    background-color: #0056b3;
+    /* Achtergrondkleur van de koppeling bij hover (mouseover). */
+}
+
+td a {
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+td a:hover {
+    background-color: rgb(255, 1, 255);
+    border-color: rgb(255, 1, 255);
+}

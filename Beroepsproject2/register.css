@@ -1,0 +1,103 @@
+body {
+    background: #3e4144;
+    /* Achtergrondkleur van de pagina. */
+}
+
+.form {
+    margin: 50px auto;
+    /* Marge boven en onder en gecentreerd uitlijnen. */
+    width: 300px;
+    /* Breedte van het formulier. */
+    padding: 30px 25px;
+    /* Binnenmarge boven en onder, en links en rechts. */
+    background: white;
+    /* Achtergrondkleur van het formulier. */
+    border-radius: 8px;
+}
+
+h1.login-title {
+    color: #666;
+    /* Tekstkleur. */
+    margin: 0px auto 25px;
+    /* Marge boven, onder en gecentreerd uitlijnen. */
+    font-size: 25px;
+    /* Tekstgrootte. */
+    font-weight: 300;
+    /* Letterdikte. */
+    text-align: center;
+    /* Tekst uitlijnen in het midden. */
+}
+
+.login-input {
+    font-size: 15px;
+    /* Tekstgrootte van invoervelden. */
+    border: 1px solid #ccc;
+    /* Rand van het invoerveld. */
+    padding: 10px;
+    /* Binnenmarge binnen het invoerveld. */
+    margin-bottom: 25px;
+    /* Marge onder het invoerveld. */
+    height: 25px;
+    /* Hoogte van het invoerveld. */
+    width: calc(100% - 23px);
+    /* Breedte van het invoerveld. */
+}
+
+.login-input:focus {
+    border-color: #6e8095;
+    /* Randkleur van het invoerveld bij focus (wanneer het geselecteerd is). */
+    outline: none;
+    /* Verwijdering van de standaard focusomlijning. */
+}
+
+.login-button {
+    color: #fff;
+    /* Tekstkleur van de knop. */
+    background: #55a1ff;
+    /* Achtergrondkleur van de knop. */
+    border: 0;
+    /* Geen rand om de knop. */
+    outline: 0;
+    /* Geen focusomlijning. */
+    width: 100%;
+    /* Volledige breedte van de knop. */
+    height: 50px;
+    /* Hoogte van de knop. */
+    font-size: 16px;
+    /* Tekstgrootte van de knop. */
+    text-align: center;
+    /* Tekst uitlijnen in het midden van de knop. */
+    cursor: pointer;
+    /* Wijzigen van de cursorstijl naar een handje bij hover. */
+}
+
+.link {
+    color: #666;
+    /* Tekstkleur van koppelingen. */
+    font-size: 15px;
+    /* Tekstgrootte van koppelingen. */
+    text-align: center;
+    /* Tekst uitlijnen in het midden. */
+    margin-bottom: 0px;
+    /* Marge onder koppelingen. */
+}
+
+.link a {
+    color: #666;
+    /* Tekstkleur van koppelingen binnen het formulier. */
+}
+
+h3 {
+    font-weight: normal;
+    /* Normale letterdikte voor h3-elementen. */
+    text-align: center;
+    /* Tekst uitlijnen in het midden. */
+}
+
+form h1 {
+    text-align: center;
+}
+
+p a {
+    text-decoration: none;
+}
